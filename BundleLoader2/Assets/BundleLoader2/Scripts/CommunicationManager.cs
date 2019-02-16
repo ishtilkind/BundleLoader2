@@ -103,7 +103,7 @@ namespace NG.TRIPSS.CORE
             }
         }
 
-        void Awake()
+        public void Awake()
         {
             StartCoroutine(LoadInternal());
             //// Singleton init
@@ -130,6 +130,8 @@ namespace NG.TRIPSS.CORE
             //    planets = JsonUtility.FromJson<Planets>(www.text).planets;
             //}
             // loader = BundleLoader.Instance;
+            
+            Debug.Log("Loading Internals...");
 
             yield break;
         }

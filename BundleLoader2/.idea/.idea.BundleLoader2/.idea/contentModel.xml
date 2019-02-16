@@ -32,6 +32,9 @@
               <e p="MyCustomBuildProcessor.cs" t="Include" />
               <e p="Tests" t="Include">
                 <e p="LoaderTestScript.cs" t="Include" />
+                <e p="TutorialEditorTests.cs" t="Include" />
+                <e p="TutorialMonoBehaviourTests.cs" t="Include" />
+                <e p="TutorialSeverityLevelTests.cs" t="Include" />
                 <e p="TutorialTestScript.cs" t="Include" />
               </e>
             </e>
