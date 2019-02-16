@@ -8,6 +8,10 @@
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="BundleLoader2" t="Include">
+          <e p="Menu" t="Include">
+            <e p="CustomMenu.cs" t="Include" />
+            <e p="CustomMenuAssembly.asmdef" t="Include" />
+          </e>
           <e p="Scripts" t="Include">
             <e p="AppSettings.cs" t="Include" />
             <e p="AssetBundleItem.cs" t="Include" />
@@ -25,13 +29,14 @@
               <e p="CreateAssetBundleItemList.cs" t="Include" />
               <e p="CreateSettings.cs" t="Include" />
               <e p="DbInfoLoaderEditor.cs" t="Include" />
-              <e p="LoaderTestScript.cs" t="Include" />
               <e p="MyCustomBuildProcessor.cs" t="Include" />
               <e p="PathEditor.cs" t="Include" />
+              <e p="Tests" t="Include">
+                <e p="LoaderTestScript.cs" t="Include" />
+              </e>
               <e p="TripssToolsEditorWindow.cs" t="Include" />
               <e p="VersionEditor.cs" t="Include" />
             </e>
-            <e p="Initializer.cs" t="Include" />
             <e p="Interfaces" t="Include">
               <e p="IAssetBundleLoader.cs" t="Include" />
               <e p="IAssetInfo.cs" t="Include" />
@@ -45,40 +50,21 @@
             </e>
             <e p="Settings.cs" t="Include" />
           </e>
-        </e>
-        <e p="WebPlayerTemplates" t="Include">
-          <e p="BundleLoader.cs" t="Include" />
-          <e p="BundleLoaderNotWorking.cs" t="Include" />
-          <e p="CameraScripts" t="Include">
-            <e p="CameraInput.cs" t="Include" />
-            <e p="CameraOrbit.cs" t="Include" />
-            <e p="CameraZoom.cs" t="Include" />
-            <e p="DoubleClick.cs" t="Include" />
-            <e p="FreeObjectRotationCam.cs" t="Include" />
-            <e p="LongClick.cs" t="Include" />
-            <e p="MouseClickHandler.cs" t="Include" />
-            <e p="ZoomIN.cs" t="Include" />
-            <e p="ZoomOUT.cs" t="Include" />
-          </e>
-          <e p="Command.cs" t="Include" />
-          <e p="DataBuilder.cs" t="Include" />
-          <e p="UI Scripts" t="Include">
-            <e p="ComponentHUD.cs" t="Include" />
-            <e p="FpsDisplay.cs" t="Include" />
-            <e p="HUD_Text.cs" t="Include" />
-            <e p="PathInfo.cs" t="Include" />
-            <e p="VersionInfo.cs" t="Include" />
-            <e p="VersionInfoDisplay.cs" t="Include" />
+          <e p="Tests" t="Include">
+            <e p="CustomMenuTests.cs" t="Include" />
+            <e p="Tests.asmdef" t="Include" />
           </e>
         </e>
       </e>
       <e p="BundleLoader2.sln" t="IncludeFlat" />
+      <e p="CustomMenuAssembly.csproj" t="IncludeRecursive" />
       <e p="Library" t="ExcludeRecursive" />
       <e p="obj" t="ExcludeRecursive" />
       <e p="packages" t="ExcludeRecursive" />
       <e p="Temp" t="ExcludeRecursive">
         <e p="bin" t="ExcludeRecursive" />
       </e>
+      <e p="Tests.csproj" t="IncludeRecursive" />
     </e>
   </component>
 </project>

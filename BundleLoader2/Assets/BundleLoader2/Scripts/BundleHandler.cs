@@ -2,7 +2,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
-using NG.TRIPSS.CAMERA;
+using System.Runtime.CompilerServices;
+//using NG.TRIPSS.CAMERA;
 using NG.TRIPSS.CONFIG;
 using NG.TRIPSS.CORE;
 using NG.TRIPSS.CORE.LOG;
@@ -17,7 +18,49 @@ namespace NG.TRIPSS.CORE
 	/// </summary>
 	public class BundleHandler : MonoBehaviour, IBundleHandler
 	{
+		#region Singleton
 		/// <summary>
+		///  http://csharpindepth.com/Articles/General/Singleton.aspx
+		/// </summary>
+
+		private static IBundleHandler instance = null;
+		private static readonly object padlock = new object();
+
+		public static IBundleHandler Instance
+		{
+			get
+			{
+				lock (padlock)
+				{
+					if (instance == null)
+					{
+						var gameObject = new GameObject("BundleHandler");
+						instance = gameObject.AddComponent<BundleHandler>();
+					}
+					return instance;
+				}
+			}
+		}
+
+		[RuntimeInitializeOnLoadMethod]
+		private static void Init()
+		{
+			lock (padlock)
+			{
+				if (instance == null || instance.Equals(null))
+				{
+					var gameObject = new GameObject("BundleHandler");
+					instance = gameObject.AddComponent<BundleHandler>();
+				}
+			}
+		}
+
+		#endregion
+
+        private static IAssetBundleLoader loader = new Loader("", null, null);		
+        public static IAssetBundleLoader Loader => loader;
+
+        /// <summary>
 		/// Parent transform for an instantiated asset
 		/// </summary>
 		[Header("Spawn Point")] 
@@ -51,9 +94,9 @@ namespace NG.TRIPSS.CORE
         [Header("Default Model Settings")] public AssetBundleItemList missingAssets;
 
         
-        private FreeObjectRotationCam cam;
+//        private FreeObjectRotationCam cam;
 
-        private IAssetBundleLoader loader;
+
         
 
         #endregion
@@ -498,11 +541,11 @@ namespace NG.TRIPSS.CORE
 				goInstance.transform.localRotation = Quaternion.Euler(new Vector3(asset.InitialRotationX, asset.InitialRotationY, asset.InitialRotationZ));
 				goInstance.transform.localScale = Vector3.one * asset.InitialScale;
 
-				if (cam)
-				{
-					cam.loadedAsset = GetComponent<Transform>();
-					cam.ResetCamera();
-				}
+//				if (cam)
+//				{
+//					cam.loadedAsset = GetComponent<Transform>();
+//					cam.ResetCamera();
+//				}
 
 				_assetLoadedEvent.Invoke(asset);
 
@@ -638,6 +681,20 @@ namespace NG.TRIPSS.CORE
 			}
 		}
 
-		
+
+	}
+	public static class BundleLoaderUtilities2
+	{
+		public static Transform DeleteChildren(this Transform t)
+		{
+			if (null == t) return t;
+
+			foreach (Transform child in t)
+			{
+				UnityEngine.Object.Destroy(child.gameObject);
+			}
+
+			return t;
+		}
 	}
 }

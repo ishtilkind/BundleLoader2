@@ -14,5 +14,7 @@ namespace NG.TRIPSS.CORE
         void LoadAsset(AssetBundleItem asset);
 
         void LoadAssetBundleItem(AssetBundleItem asset);
+        
+        string CurrentBundleName { get; }
     }
 }

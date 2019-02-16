@@ -4,15 +4,27 @@ using NUnit.Framework;
 using System.Collections;
 using NG.TRIPSS.CORE;
 
-public class LoaderTestScript {
+public class LoaderTestScript
+{
+
+    private Loader loader = null;
+    private readonly IDataSource dataSource = null;
+
+    [SetUp]
+    public void Setup()
+    {
+        loader = new Loader("", dataSource, null);
+    }
+
+    [TearDown]
+    public void Teardown()
+    {
+        
+    }
 
     [Test]
     public void Loader_LoadModel_ContainerId_1()
     {
-
-        IDataSource source = null;
-        // Use the Assert class to test conditions.
-        Loader loader = new Loader("", source, null);
         var result = loader.LoadModel("1");
         Assert.True(result);
     }
@@ -21,7 +33,8 @@ public class LoaderTestScript {
     // and allows you to yield null to skip a frame in EditMode
     [UnityTest]
     public IEnumerator LoaderTestScriptWithEnumeratorPasses() {
-        // Use the Assert class to test conditions.
+        LogAssert.Expect(LogType.Error, "Failed.");
+        Debug.LogError("Failed.");
         // yield to skip a frame
         yield return null;
     }

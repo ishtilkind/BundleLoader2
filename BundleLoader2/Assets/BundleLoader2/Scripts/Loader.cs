@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Runtime.CompilerServices;
 using NG.TRIPSS.CONFIG;
 using NG.TRIPSS.CORE.LOG;
 using UnityEngine;
@@ -6,8 +7,31 @@ using UnityEngine.Events;
 
 namespace NG.TRIPSS.CORE
 {
-    public class Loader: IAssetBundleLoader //, IAssetBundleLoaderInternal, IAssetBundleLoaderInternalAsync
+    public sealed class Loader: IAssetBundleLoader //, IAssetBundleLoaderInternal, IAssetBundleLoaderInternalAsync
     {
+//        #region Singleton
+//
+//        private static IAssetBundleLoader instance = null;
+//        private static readonly object padlock = new object();
+//
+//        public static IAssetBundleLoader Instance
+//        {
+//            get
+//            {
+//                lock (padlock)
+//                {
+//                    if (instance == null)
+//                    {
+//                        instance = new Loader();
+//                    }
+//                    return instance;
+//                }
+//            }
+//        }
+//
+//        #endregion
+
+        
         #region Variables
 
         private IDataSource _dataSource;
@@ -132,8 +156,37 @@ namespace NG.TRIPSS.CORE
 
     }
 
+
     public static class BundleLoaderUtilities
     {
+        public static string ValidatePath(this string path)
+        {
+            if (string.IsNullOrEmpty(path))
+            {
+                "Empty Path"
+                    .ConsoleLog(LOG.LogLevel.Info, AppSettings.Instance.staticSettings.logLevel);
 
+                return "/";
+            }
+
+            if (path.EndsWith("/"))
+                return path;
+            else
+                return (path + "/");
+        }
+
+        public static string ToJson<T>(this T val)
+        {
+            return JsonUtility.ToJson(val);
+        }
+
+        public static bool IsEmptyObject(this string val)
+        {
+            var result = string.IsNullOrEmpty(val) || val == "{}";
+
+            $"IsEmptyObject called with value: '{val}' is {result}".ConsoleLog(LOG.LogLevel.Info, AppSettings.Instance.staticSettings.logLevel);
+
+            return result;
+        }
     }
 }

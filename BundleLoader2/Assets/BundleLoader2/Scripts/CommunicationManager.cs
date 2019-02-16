@@ -84,9 +84,8 @@ namespace NG.TRIPSS.CORE
 
         #endregion
 
-        [SerializeField]
+        // [SerializeField]
         //private Loader loader;
-        //private BundleLoader loader;
 
         #region MonoBehaviour
 
@@ -193,7 +192,7 @@ namespace NG.TRIPSS.CORE
             //    loader = BundleLoader.Instance;
             //}
 
-            BundleLoaderNotWorking.Instance.LoadModel(str);
+            BundleHandler.Loader.LoadModel(str);
         }
 
         // Notify external app only after the level finished loading
@@ -221,7 +220,7 @@ namespace NG.TRIPSS.CORE
 
         public void Quit()
         {
-            BundleLoaderNotWorking.Instance.QuitApplication();
+//            Loader.Instance.QuitApplication();
         }
 
         #endregion
@@ -233,7 +232,7 @@ namespace NG.TRIPSS.CORE
         {
             if (string.IsNullOrEmpty(bname))
             {
-                bname = BundleLoaderNotWorking.Instance.CurrentBundleName;
+                bname = BundleHandler.Instance.CurrentBundleName;
             }
             $"ClickedOnce Bundle Name is {bname}"
                 .ConsoleLog(LOG.LogLevel.Info, AppSettings.Instance.staticSettings.logLevel);
@@ -253,7 +252,7 @@ namespace NG.TRIPSS.CORE
         {
             if (string.IsNullOrEmpty(bname))
             {
-                bname = BundleLoaderNotWorking.Instance.CurrentBundleName;
+                bname = BundleHandler.Instance.CurrentBundleName;
             }
             $"ClickedTwice Bundle Name is {bname}".ConsoleLog(LOG.LogLevel.Info, AppSettings.Instance.staticSettings.logLevel);
 

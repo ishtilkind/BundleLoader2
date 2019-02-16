@@ -3,7 +3,7 @@ using System.Collections;
 
 namespace NG.TRIPSS.CORE
 {
-    interface IAssetBundleLoader
+    public interface IAssetBundleLoader
     {
         bool LoadModel(string containerId);
 

@@ -1,0 +1,14 @@
+{
+    "name": "Tests",
+    "references": [
+        "CustomMenuAssembly"
+    ],
+    "optionalUnityReferences": [
+        "TestAssemblies"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false
+}
