@@ -1,5 +1,8 @@
-﻿using NG.TRIPSS.CONFIG;
+﻿using System;
+using NG.TRIPSS.CONFIG;
 using NG.TRIPSS.CORE.LOG;
+using UnityEngine;
+using UnityEngine.Events;
 
 namespace NG.TRIPSS.CORE
 {
@@ -10,29 +13,30 @@ namespace NG.TRIPSS.CORE
         private IDataSource _dataSource;
         private IBundleHandler _bundleHandler;
         
+        private string bundlePath = "../AssetBundles/WebGL/";
+        
         private AssetBundleItemList.DB_Type currentDbType = AssetBundleItemList.DB_Type.Unset;
         private int currentID = -1;
+        
+        [SerializeField] private AssetBundle currentBundle;
+        [SerializeField] private GameObject currentAsset;
 
         #endregion
+
+
 
         #region Life Cycle
-
-        Loader(IDataSource dataSource, IBundleHandler bundleHandler)
+        
+        public Loader(string bundlePath, IDataSource dataSource, IBundleHandler bundleHandler)
         {
+            this.bundlePath = bundlePath;
             this._dataSource = dataSource;
             this._bundleHandler = bundleHandler;
-            AssignListeners();
-        }
-        
-        ~Loader()
-        {
-            RemoveListeners();
         }
 
         #endregion
         
-        
-        
+    
         
         #region IAssetBundleLoader
         
@@ -89,63 +93,7 @@ namespace NG.TRIPSS.CORE
         
         #endregion
         
-                private void RemoveListeners()
-        {
-//            if (listenersInitialized)
-//            {
-//                loadAssetBundleItemEvent.RemoveAllListeners();
-//                _assetLoadedEvent.RemoveAllListeners();
-//
-//
-//                createAssetBundleItemEvent.RemoveAllListeners();
-//                _createAssetEvent.RemoveAllListeners();
-//
-//
-//                sameAssetBundleItemEvent.RemoveAllListeners();
-//                _sameAssetEvent.RemoveAllListeners();
-//                sameAssetIdEvent.RemoveAllListeners();
-//
-//                _invalidBundleEvent.RemoveAllListeners();
-//                _invalidAssetEvent.RemoveAllListeners();
-//
-//                _notInDbAssetEvent.RemoveAllListeners();
-//
-//                listenersInitialized = false;
-//                "Listeners removed."
-//                    .ConsoleLog(LOG.LogLevel.Info, AppSettings.Instance.staticSettings.logLevel);
-//            }
-        }
 
-        private void AssignListeners()
-        {
-//            if (!listenersInitialized)
-//            {
-//                loadAssetBundleItemEvent.AddListener(LoadBundleAssetEventHandler);
-//                _assetLoadedEvent.AddListener(AssetLoadedEventHandler);
-//
-//                createAssetBundleItemEvent.AddListener(CreateBundleAssetEventHandler);
-//                _createAssetEvent.AddListener(CreateAssetEventHandler);
-//
-//                sameAssetBundleItemEvent.AddListener(SameBundleAssetEventHandler);
-//                _sameAssetEvent.AddListener(SameAssetEventHandler);
-//
-//                sameAssetIdEvent.AddListener(SameAssetIdEventHandler);
-//
-//                _invalidBundleEvent.AddListener(InvalidBundleEventHandler);
-//                _invalidAssetEvent.AddListener(InvalidAssetEventHandler);
-//
-//                _notInDbAssetEvent.AddListener(NotInDbAssetEventHandler);
-//
-//                listenersInitialized = true;
-//                "Listeners assigned.".ConsoleLog(LOG.LogLevel.Info, AppSettings.Instance.staticSettings.logLevel);
-//
-//            }
-//            else
-//            {
-//                "Listeners ALREADY assigned.".ConsoleLog(LOG.LogLevel.Info, AppSettings.Instance.staticSettings.logLevel);
-//            }
-
-        }
         
         
         
@@ -155,12 +103,31 @@ namespace NG.TRIPSS.CORE
         
         
 //        --------------------------------
-        private bool SameAsset(int id, AssetBundleItemList.DB_Type type)
+        public bool SameAsset(int id, AssetBundleItemList.DB_Type type)
         {
             $"currentID: {currentID} currentDbType: {currentDbType} new id: {id} new type: {type}"
                 .ConsoleLog(LOG.LogLevel.Info, AppSettings.Instance.staticSettings.logLevel);
 
             return (id == currentID && type == currentDbType);
         }
+        
+        private void UnloadCurrentBundle()
+        {
+            $"UnloadCurrentBundle: {(currentBundle ? currentBundle.name : "none")}"
+                .ConsoleLog(LOG.LogLevel.Info, AppSettings.Instance.staticSettings.logLevel);
+
+            _bundleHandler.ResetCurrentAsset();
+            if (currentBundle)
+            {
+                currentBundle.Unload(true);
+                currentBundle = null;
+            }
+        }
+
+    }
+
+    public static class BundleLoaderUtilities
+    {
+
     }
 }

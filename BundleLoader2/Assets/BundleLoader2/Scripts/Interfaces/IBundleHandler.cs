@@ -8,5 +8,9 @@ namespace NG.TRIPSS.CORE
     {
         void UnloadCurrentBundle();
         void DeleteAllGameObjects();
+        void ResetCurrentAsset();
+
+        IEnumerator LoadAssetAsync(AssetBundleItem asset);
+        void LoadAsset(AssetBundleItem asset);
     }
 }

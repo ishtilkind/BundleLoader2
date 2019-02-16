@@ -11,6 +11,7 @@ namespace NG.TRIPSS.CORE
         void LoadTripssAsset(int id, IDataSource dataSource);
         int GetIdByName(string name);
         int GetContainerIdByAssetNameAndBundleName(string aname, string bname = null);
+        bool SameAsset(int id, AssetBundleItemList.DB_Type type);
     }
 
     interface IAssetBundleLoaderInternal
