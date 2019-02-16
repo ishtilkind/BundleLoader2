@@ -30,12 +30,10 @@
               <e p="CreateSettings.cs" t="Include" />
               <e p="DbInfoLoaderEditor.cs" t="Include" />
               <e p="MyCustomBuildProcessor.cs" t="Include" />
-              <e p="PathEditor.cs" t="Include" />
               <e p="Tests" t="Include">
                 <e p="LoaderTestScript.cs" t="Include" />
+                <e p="TutorialTestScript.cs" t="Include" />
               </e>
-              <e p="TripssToolsEditorWindow.cs" t="Include" />
-              <e p="VersionEditor.cs" t="Include" />
             </e>
             <e p="Interfaces" t="Include">
               <e p="IAssetBundleLoader.cs" t="Include" />

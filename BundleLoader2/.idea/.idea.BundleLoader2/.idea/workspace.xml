@@ -2,57 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dca10ecc-95d4-40c7-85f1-0267d4127e4c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.BundleLoader2/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BundleLoader2/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BundleLoader2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BundleLoader2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BundleLoader2/Scripts/BundleHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/BundleLoader2/Scripts/BundleHandler.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BundleLoader2/Scripts/CommunicationManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/BundleLoader2/Scripts/CommunicationManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BundleLoader2/Scripts/Editor/LoaderTestScript.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BundleLoader2/Scripts/Editor/LoaderTestScript.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BundleLoader2/Scripts/Initializer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BundleLoader2/Scripts/Initializer.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BundleLoader2/Scripts/Interfaces/IAssetBundleLoader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/BundleLoader2/Scripts/Interfaces/IAssetBundleLoader.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BundleLoader2/Scripts/Loader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/BundleLoader2/Scripts/Loader.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/WebPlayerTemplates.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/WebPlayerTemplates/BundleLoader.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/WebPlayerTemplates/BundleLoader.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/WebPlayerTemplates/BundleLoaderNotWorking.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/WebPlayerTemplates/BundleLoaderNotWorking.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/WebPlayerTemplates/CameraScripts.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/WebPlayerTemplates/CameraScripts/CameraInput.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/WebPlayerTemplates/CameraScripts/CameraInput.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/WebPlayerTemplates/CameraScripts/CameraOrbit.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/WebPlayerTemplates/CameraScripts/CameraOrbit.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/WebPlayerTemplates/CameraScripts/CameraZoom.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/WebPlayerTemplates/CameraScripts/CameraZoom.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/WebPlayerTemplates/CameraScripts/DoubleClick.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/WebPlayerTemplates/CameraScripts/DoubleClick.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/WebPlayerTemplates/CameraScripts/FreeObjectRotationCam.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/WebPlayerTemplates/CameraScripts/FreeObjectRotationCam.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/WebPlayerTemplates/CameraScripts/LongClick.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/WebPlayerTemplates/CameraScripts/LongClick.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/WebPlayerTemplates/CameraScripts/MouseClickHandler.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/WebPlayerTemplates/CameraScripts/MouseClickHandler.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/WebPlayerTemplates/CameraScripts/ZoomIN.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/WebPlayerTemplates/CameraScripts/ZoomIN.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/WebPlayerTemplates/CameraScripts/ZoomOUT.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/WebPlayerTemplates/CameraScripts/ZoomOUT.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/WebPlayerTemplates/Command.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/WebPlayerTemplates/Command.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/WebPlayerTemplates/DataBuilder.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/WebPlayerTemplates/DataBuilder.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/WebPlayerTemplates/UI Scripts.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/WebPlayerTemplates/UI Scripts/ComponentHUD.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/WebPlayerTemplates/UI Scripts/ComponentHUD.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/WebPlayerTemplates/UI Scripts/FpsDisplay.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/WebPlayerTemplates/UI Scripts/FpsDisplay.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/WebPlayerTemplates/UI Scripts/HUD_Text.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/WebPlayerTemplates/UI Scripts/HUD_Text.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/WebPlayerTemplates/UI Scripts/PathInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/WebPlayerTemplates/UI Scripts/PathInfo.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/WebPlayerTemplates/UI Scripts/VersionInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/WebPlayerTemplates/UI Scripts/VersionInfo.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/WebPlayerTemplates/UI Scripts/VersionInfoDisplay.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/WebPlayerTemplates/UI Scripts/VersionInfoDisplay.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BundleLoader2/Scripts/Editor/Tests/LoaderTestScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/BundleLoader2/Scripts/Editor/Tests/LoaderTestScript.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -64,7 +15,7 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Assets/BundleLoader2/Scripts/Interfaces/IAssetBundleLoader.cs">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="60">
@@ -97,12 +48,59 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Assets/BundleLoader2/Scripts/Interfaces/IBundleHandler.cs">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="15">
-                  <caret line="13" column="22" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="22" />
+                <state relative-caret-position="255">
+                  <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
                   <folding>
-                    <marker date="1550300532903" expanded="false" signature="6:78" ph="..." />
-                    <marker date="1550300532903" expanded="true" signature="104:428" ph="{...}" />
-                    <marker date="1550300532903" expanded="true" signature="142:426" ph="{...}" />
+                    <marker date="1550342346365" expanded="false" signature="6:78" ph="..." />
+                    <marker date="1550342346365" expanded="true" signature="104:479" ph="{...}" />
+                    <marker date="1550342346365" expanded="true" signature="142:477" ph="{...}" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Assets/BundleLoader2/Scripts/Editor/Tests/LoaderTestScript.cs">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="313">
+                  <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+                  <folding>
+                    <marker date="1550345667324" expanded="false" signature="6:118" ph="..." />
+                    <marker date="1550345667324" expanded="true" signature="149:1214" ph="{...}" />
+                    <marker date="1550345667324" expanded="true" signature="289:310" ph="{...}" />
+                    <marker date="1550345667324" expanded="true" signature="347:410" ph="{...}" />
+                    <marker date="1550345667324" expanded="true" signature="453:474" ph="{...}" />
+                    <marker date="1550345667324" expanded="true" signature="485:698" ph="/* [Test] ... */" />
+                    <marker date="1550345667324" expanded="true" signature="759:844" ph="{...}" />
+                    <marker date="1550345667324" expanded="true" signature="850:1212" ph="/* A UnityTest behaves like a coroutine in PlayMode ... */" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/Assets/BundleLoader2/Scripts/Editor/Tests/TutorialTestScript.cs">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="526">
+                  <caret line="93" column="31" lean-forward="true" selection-start-line="93" selection-start-column="31" selection-end-line="93" selection-end-column="31" />
+                  <folding>
+                    <marker date="1550348517476" expanded="false" signature="6:96" ph="..." />
+                    <marker date="1550348517476" expanded="true" signature="130:2864" ph="{...}" />
+                    <marker date="1550348517476" expanded="true" signature="318:410" ph="{...}" />
+                    <marker date="1550348517476" expanded="true" signature="584:671" ph="{...}" />
+                    <marker date="1550348517476" expanded="true" signature="854:943" ph="{...}" />
+                    <marker date="1550348517476" expanded="true" signature="1036:1097" ph="{...}" />
+                    <marker date="1550348517476" expanded="true" signature="1127:1304" ph="[...]" />
+                    <marker date="1550348517476" expanded="true" signature="1350:1413" ph="{...}" />
+                    <marker date="1550348517476" expanded="true" signature="1448:1649" ph="[...]" />
+                    <marker date="1550348517476" expanded="true" signature="1695:1758" ph="{...}" />
+                    <marker date="1550348517476" expanded="true" signature="1993:2048" ph="{...}" />
+                    <marker date="1550348517476" expanded="true" signature="2164:2403" ph="{...}" />
+                    <marker date="1550348517476" expanded="true" signature="2269:2333" ph="{...}" />
+                    <marker date="1550348517476" expanded="true" signature="2346:2397" ph="{...}" />
+                    <marker date="1550348517476" expanded="true" signature="2420:2535" ph="/* A UnityTest behaves like a coroutine in PlayMode ... */" />
+                    <marker date="1550348517476" expanded="true" signature="2743:2862" ph="{...}" />
+                    <marker date="1550348517476" expanded="true" signature="2753:2829" ph="/* Use the Assert class to test conditions. ... */" />
                   </folding>
                 </state>
               </provider>
@@ -112,11 +110,11 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Assets/BundleLoader2/Scripts/BundleHandler.cs">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="630">
-                  <caret line="53" column="17" lean-forward="true" selection-start-line="53" selection-start-column="17" selection-end-line="53" selection-end-column="17" />
+                <state relative-caret-position="105">
+                  <caret line="18" column="53" lean-forward="true" selection-start-line="18" selection-start-column="53" selection-end-line="18" selection-end-column="53" />
                   <folding>
                     <marker date="1550342117920" expanded="false" signature="6:304" ph="..." />
                     <marker date="1550342117920" expanded="true" signature="330:20503" ph="{...}" />
@@ -130,7 +128,7 @@
                     <marker date="1550342117920" expanded="true" signature="1043:1255" ph="{...}" />
                     <marker date="1550342117920" expanded="true" signature="1121:1246" ph="{...}" />
                     <marker date="1550342117920" expanded="true" signature="1420:1499" ph="/// Parent transform for an instantiated asset ... " />
-                    <marker date="1550342117920" expanded="true" signature="2134:2473" ph="Constants" />
+                    <marker date="1550342117920" expanded="false" signature="2134:2473" ph="Constants" />
                     <marker date="1550342117920" expanded="true" signature="2536:2604" ph="{...}" />
                     <marker date="1550342117920" expanded="false" signature="2621:5051" ph="Events and EventHandlers" />
                     <marker date="1550342117920" expanded="true" signature="2765:2793" ph="{...}" />
@@ -218,68 +216,68 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/Assets/BundleLoader2/Scripts/CommunicationManager.cs">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="510">
-                  <caret line="194" selection-start-line="194" selection-end-line="194" />
+                <state relative-caret-position="-420">
+                  <caret line="183" column="47" selection-start-line="183" selection-start-column="47" selection-end-line="183" selection-end-column="47" />
                   <folding>
-                    <marker date="1550341618803" expanded="false" signature="6:200" ph="..." />
-                    <marker date="1550341618803" expanded="true" signature="226:12572" ph="{...}" />
-                    <marker date="1550341618803" expanded="true" signature="334:12570" ph="{...}" />
-                    <marker date="1550341618803" expanded="false" signature="350:1715" ph="UNITY 2 WEB PAGE COMMUNICATION" />
-                    <marker date="1550341618803" expanded="false" signature="1725:2519" ph="Singleton" />
-                    <marker date="1550341618803" expanded="true" signature="1882:2003" ph="{...}" />
-                    <marker date="1550341618803" expanded="true" signature="1908:1993" ph="{...}" />
-                    <marker date="1550341618803" expanded="true" signature="2079:2499" ph="{...}" />
-                    <marker date="1550341618803" expanded="true" signature="2148:2489" ph="{...}" />
-                    <marker date="1550341618803" expanded="true" signature="2529:2581" ph="/* [SerializeField] ... */" />
-                    <marker date="1550341618803" expanded="false" signature="2591:4996" ph="MonoBehaviour" />
-                    <marker date="1550341618803" expanded="true" signature="2654:2703" ph="{...}" />
-                    <marker date="1550341618803" expanded="true" signature="2737:2869" ph="{...}" />
-                    <marker date="1550341618803" expanded="true" signature="2774:2859" ph="{...}" />
-                    <marker date="1550341618803" expanded="true" signature="2891:3279" ph="{...}" />
-                    <marker date="1550341618803" expanded="true" signature="2958:3269" ph="/* Singleton init ... */" />
-                    <marker date="1550341618803" expanded="true" signature="3323:3768" ph="{...}" />
-                    <marker date="1550341618803" expanded="true" signature="3346:3732" ph="/* var path = Application.streamingAssetsPath + &quot;/planets.json&quot;; ... */" />
-                    <marker date="1550341618803" expanded="true" signature="3794:4137" ph="{...}" />
-                    <marker date="1550341618803" expanded="true" signature="3820:3975" ph="{...}" />
-                    <marker date="1550341618803" expanded="true" signature="4014:4081" ph="{...}" />
-                    <marker date="1550341618803" expanded="true" signature="4162:4976" ph="{...}" />
-                    <marker date="1550341618803" expanded="true" signature="4223:4686" ph="{...}" />
-                    <marker date="1550341618803" expanded="true" signature="4393:4672" ph="{...}" />
-                    <marker date="1550341618803" expanded="true" signature="4733:4910" ph="{...}" />
-                    <marker date="1550341618803" expanded="true" signature="5006:6456" ph="ICommsToUnity" />
-                    <marker date="1550341618803" expanded="true" signature="5140:5619" ph="{...}" />
-                    <marker date="1550341618803" expanded="true" signature="5323:5573" ph="/* if (null == loader) ... */" />
-                    <marker date="1550341618803" expanded="true" signature="5749:6339" ph="{...}" />
-                    <marker date="1550341618803" expanded="true" signature="5822:6223" ph="{...}" />
-                    <marker date="1550341618803" expanded="true" signature="5914:6202" ph="/* Debug.LogWarning(&quot;Before GetAssetInfoById&quot;); ... */" />
-                    <marker date="1550341618803" expanded="true" signature="6262:6329" ph="{...}" />
-                    <marker date="1550341618803" expanded="true" signature="6367:6436" ph="{...}" />
-                    <marker date="1550341618803" expanded="true" signature="6466:7919" ph="ICommsFromUnity" />
-                    <marker date="1550341618803" expanded="true" signature="6558:7096" ph="{...}" />
-                    <marker date="1550341618803" expanded="true" signature="6613:6707" ph="{...}" />
-                    <marker date="1550341618803" expanded="true" signature="6984:7086" ph="{...}" />
-                    <marker date="1550341618803" expanded="true" signature="7165:7661" ph="{...}" />
-                    <marker date="1550341618803" expanded="true" signature="7220:7314" ph="{...}" />
-                    <marker date="1550341618803" expanded="true" signature="7549:7651" ph="{...}" />
-                    <marker date="1550341618803" expanded="true" signature="7713:7819" ph="{...}" />
-                    <marker date="1550341618803" expanded="true" signature="7853:7899" ph="{...}" />
-                    <marker date="1550341618803" expanded="true" signature="7929:9314" ph="/* private string GetAssetByNameAsJson(string compName) ... */" />
-                    <marker date="1550341618803" expanded="true" signature="9387:9597" ph="{...}" />
-                    <marker date="1550341618803" expanded="true" signature="9670:11234" ph="{...}" />
-                    <marker date="1550341618803" expanded="true" signature="9693:10217" ph="/* Debug.Log(&quot;GetAssetByNameAsJson: &quot; + bname + &quot;|&quot; + aname); ... */" />
-                    <marker date="1550341618803" expanded="true" signature="10435:10492" ph="{...}" />
-                    <marker date="1550341618803" expanded="true" signature="10629:10887" ph="/* Sanity check ... */" />
-                    <marker date="1550341618803" expanded="true" signature="11278:11339" ph="{...}" />
-                    <marker date="1550341618803" expanded="true" signature="11375:11444" ph="{...}" />
-                    <marker date="1550341618803" expanded="true" signature="11533:11624" ph="{...}" />
-                    <marker date="1550341618803" expanded="true" signature="11672:11866" ph="{...}" />
-                    <marker date="1550341618803" expanded="true" signature="11876:11980" ph="/// { ... " />
-                    <marker date="1550341618803" expanded="true" signature="12031:12253" ph="{...}" />
-                    <marker date="1550341618803" expanded="true" signature="12316:12564" ph="{...}" />
-                    <marker date="1550341618803" expanded="true" signature="12418:12462" ph="{...}" />
+                    <marker date="1550342361324" expanded="false" signature="6:200" ph="..." />
+                    <marker date="1550342361324" expanded="true" signature="226:12586" ph="{...}" />
+                    <marker date="1550342361324" expanded="true" signature="334:12584" ph="{...}" />
+                    <marker date="1550342361324" expanded="false" signature="350:1715" ph="UNITY 2 WEB PAGE COMMUNICATION" />
+                    <marker date="1550342361324" expanded="false" signature="1725:2519" ph="Singleton" />
+                    <marker date="1550342361324" expanded="true" signature="1882:2003" ph="{...}" />
+                    <marker date="1550342361324" expanded="true" signature="1908:1993" ph="{...}" />
+                    <marker date="1550342361324" expanded="true" signature="2079:2499" ph="{...}" />
+                    <marker date="1550342361324" expanded="true" signature="2148:2489" ph="{...}" />
+                    <marker date="1550342361324" expanded="true" signature="2529:2581" ph="/* [SerializeField] ... */" />
+                    <marker date="1550342361324" expanded="false" signature="2591:4996" ph="MonoBehaviour" />
+                    <marker date="1550342361324" expanded="true" signature="2654:2703" ph="{...}" />
+                    <marker date="1550342361324" expanded="true" signature="2737:2869" ph="{...}" />
+                    <marker date="1550342361324" expanded="true" signature="2774:2859" ph="{...}" />
+                    <marker date="1550342361324" expanded="true" signature="2891:3279" ph="{...}" />
+                    <marker date="1550342361324" expanded="true" signature="2958:3269" ph="/* Singleton init ... */" />
+                    <marker date="1550342361324" expanded="true" signature="3323:3768" ph="{...}" />
+                    <marker date="1550342361324" expanded="true" signature="3346:3732" ph="/* var path = Application.streamingAssetsPath + &quot;/planets.json&quot;; ... */" />
+                    <marker date="1550342361324" expanded="true" signature="3794:4137" ph="{...}" />
+                    <marker date="1550342361324" expanded="true" signature="3820:3975" ph="{...}" />
+                    <marker date="1550342361324" expanded="true" signature="4014:4081" ph="{...}" />
+                    <marker date="1550342361324" expanded="true" signature="4162:4976" ph="{...}" />
+                    <marker date="1550342361324" expanded="true" signature="4223:4686" ph="{...}" />
+                    <marker date="1550342361324" expanded="true" signature="4393:4672" ph="{...}" />
+                    <marker date="1550342361324" expanded="true" signature="4733:4910" ph="{...}" />
+                    <marker date="1550342361324" expanded="true" signature="5006:6470" ph="ICommsToUnity" />
+                    <marker date="1550342361324" expanded="true" signature="5140:5633" ph="{...}" />
+                    <marker date="1550342361324" expanded="true" signature="5323:5573" ph="/* if (null == loader) ... */" />
+                    <marker date="1550342361324" expanded="true" signature="5763:6353" ph="{...}" />
+                    <marker date="1550342361324" expanded="true" signature="5836:6237" ph="{...}" />
+                    <marker date="1550342361324" expanded="true" signature="5928:6216" ph="/* Debug.LogWarning(&quot;Before GetAssetInfoById&quot;); ... */" />
+                    <marker date="1550342361324" expanded="true" signature="6276:6343" ph="{...}" />
+                    <marker date="1550342361324" expanded="true" signature="6381:6450" ph="{...}" />
+                    <marker date="1550342361324" expanded="true" signature="6480:7933" ph="ICommsFromUnity" />
+                    <marker date="1550342361324" expanded="true" signature="6572:7110" ph="{...}" />
+                    <marker date="1550342361324" expanded="true" signature="6627:6721" ph="{...}" />
+                    <marker date="1550342361324" expanded="true" signature="6998:7100" ph="{...}" />
+                    <marker date="1550342361324" expanded="true" signature="7179:7675" ph="{...}" />
+                    <marker date="1550342361324" expanded="true" signature="7234:7328" ph="{...}" />
+                    <marker date="1550342361324" expanded="true" signature="7563:7665" ph="{...}" />
+                    <marker date="1550342361324" expanded="true" signature="7727:7833" ph="{...}" />
+                    <marker date="1550342361324" expanded="true" signature="7867:7913" ph="{...}" />
+                    <marker date="1550342361324" expanded="true" signature="7943:9328" ph="/* private string GetAssetByNameAsJson(string compName) ... */" />
+                    <marker date="1550342361324" expanded="true" signature="9401:9611" ph="{...}" />
+                    <marker date="1550342361324" expanded="true" signature="9684:11248" ph="{...}" />
+                    <marker date="1550342361324" expanded="true" signature="9707:10231" ph="/* Debug.Log(&quot;GetAssetByNameAsJson: &quot; + bname + &quot;|&quot; + aname); ... */" />
+                    <marker date="1550342361324" expanded="true" signature="10449:10506" ph="{...}" />
+                    <marker date="1550342361324" expanded="true" signature="10643:10901" ph="/* Sanity check ... */" />
+                    <marker date="1550342361324" expanded="true" signature="11292:11353" ph="{...}" />
+                    <marker date="1550342361324" expanded="true" signature="11389:11458" ph="{...}" />
+                    <marker date="1550342361324" expanded="true" signature="11547:11638" ph="{...}" />
+                    <marker date="1550342361324" expanded="true" signature="11686:11880" ph="{...}" />
+                    <marker date="1550342361324" expanded="true" signature="11890:11994" ph="/// { ... " />
+                    <marker date="1550342361324" expanded="true" signature="12045:12267" ph="{...}" />
+                    <marker date="1550342361324" expanded="true" signature="12330:12578" ph="{...}" />
+                    <marker date="1550342361324" expanded="true" signature="12432:12476" ph="{...}" />
                   </folding>
                 </state>
               </provider>
@@ -288,8 +286,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Assets/BundleLoader2/Scripts/Loader.cs">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="60">
-                  <caret line="9" column="50" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="50" />
+                <state relative-caret-position="240">
+                  <caret line="21" column="19" lean-forward="true" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
                   <folding>
                     <marker date="1550340856275" expanded="false" signature="6:147" ph="..." />
                     <marker date="1550340856275" expanded="true" signature="173:5383" ph="{...}" />
@@ -321,23 +319,6 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/Assets/BundleLoader2/Tests/CustomMenuTests.cs">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="210">
-                  <caret line="20" selection-start-line="20" selection-end-line="20" />
-                  <folding>
-                    <marker date="1550337091424" expanded="false" signature="6:96" ph="..." />
-                    <marker date="1550337091424" expanded="true" signature="127:582" ph="{...}" />
-                    <marker date="1550337091424" expanded="true" signature="187:228" ph="{...}" />
-                    <marker date="1550337091424" expanded="true" signature="234:349" ph="/* A UnityTest behaves like a coroutine in PlayMode ... */" />
-                    <marker date="1550337091424" expanded="true" signature="427:580" ph="{...}" />
-                    <marker date="1550337091424" expanded="true" signature="437:513" ph="/* Use the Assert class to test conditions. ... */" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
         </leaf>
       </split-second>
     </splitter>
@@ -360,6 +341,7 @@
       <find>LoadBundleAsync</find>
       <find>loadAssetBundleItemEvent</find>
       <find>LoadAsset</find>
+      <find>loader</find>
       <find>CurrentBundleName</find>
     </findStrings>
   </component>
@@ -367,33 +349,36 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/BundleLoader2/Scripts/Editor/Tests/LoaderTestScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/BundleLoader2/Tests/CustomMenuTests.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/BundleLoader2/Scripts/Interfaces/IBundleHandler.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/BundleLoader2/Scripts/CommunicationManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/BundleLoader2/Scripts/Loader.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/BundleLoader2/Scripts/BundleHandler.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/BundleLoader2/Menu/CustomMenu.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/BundleLoader2/Scripts/Editor/Tests/TutorialTestScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/BundleLoader2/Scripts/Interfaces/IAssetBundleLoader.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/BundleLoader2/Scripts/Interfaces/IBundleHandler.cs" />
         <option value="$PROJECT_DIR$/Assets/BundleLoader2/Scripts/Editor/LoaderTestScript.cs" />
-        <option value="$PROJECT_DIR$/Assets/BundleLoader2/Scripts/Editor/Tests/LoaderTestScript.cs" />
         <option value="$PROJECT_DIR$/Assets/BundleLoader2/Menu/CustomMenu.cs" />
         <option value="$PROJECT_DIR$/Assets/BundleLoader2/Tests/CustomMenuTests.cs" />
         <option value="$PROJECT_DIR$/Assets/Hidden/BundleLoader.cs" />
         <option value="$PROJECT_DIR$/Assets/BundleLoader2/Scripts/Interfaces/IAssetBundleLoader.cs" />
         <option value="$PROJECT_DIR$/Assets/BundleLoader2/Scripts/Loader.cs" />
-        <option value="$PROJECT_DIR$/Assets/BundleLoader2/Scripts/CommunicationManager.cs" />
         <option value="$PROJECT_DIR$/Assets/BundleLoader2/Scripts/BundleHandler.cs" />
+        <option value="$PROJECT_DIR$/Assets/BundleLoader2/Scripts/CommunicationManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/BundleLoader2/Scripts/Interfaces/IBundleHandler.cs" />
+        <option value="$PROJECT_DIR$/Assets/BundleLoader2/Scripts/Editor/Tests/LoaderTestScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/BundleLoader2/Scripts/Editor/Tests/TutorialTestScript.cs" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="432" />
-    <option name="y" value="242" />
+    <option name="x" value="-3896" />
+    <option name="y" value="135" />
     <option name="width" value="1800" />
     <option name="height" value="947" />
   </component>
@@ -460,12 +445,12 @@
       <updated>1550295337036</updated>
       <workItem from="1550295347729" duration="7232000" />
       <workItem from="1550336720397" duration="1499000" />
-      <workItem from="1550338319546" duration="3423000" />
+      <workItem from="1550338319546" duration="7928000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12154000" />
+    <option name="totallyTimeSpent" value="16659000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -477,10 +462,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
+    <frame x="-3848" y="141" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.011923688" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.015991472" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -526,7 +511,6 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Assets/BundleLoader2/Scripts/BundleLoader.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/BundleLoader2/Scripts/Editor/LoaderTestScript.cs" />
-    <entry file="file://$PROJECT_DIR$/Assets/BundleLoader2/Scripts/Editor/Tests/LoaderTestScript.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/WebPlayerTemplates/Tests/LoaderTestScript.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Hidden~/CameraScripts/ZoomOUT.cs">
       <provider selected="true" editor-type-id="text-editor">
@@ -536,33 +520,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Hidden/BundleLoader.cs" />
-    <entry file="file://$PROJECT_DIR$/Assets/BundleLoader2/Scripts/Interfaces/IBundleHandler.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="13" column="22" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="22" />
-          <folding>
-            <marker date="1550300532903" expanded="false" signature="6:78" ph="..." />
-            <marker date="1550300532903" expanded="true" signature="104:428" ph="{...}" />
-            <marker date="1550300532903" expanded="true" signature="142:426" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/BundleLoader2/Tests/CustomMenuTests.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <marker date="1550337091424" expanded="false" signature="6:96" ph="..." />
-            <marker date="1550337091424" expanded="true" signature="127:582" ph="{...}" />
-            <marker date="1550337091424" expanded="true" signature="187:228" ph="{...}" />
-            <marker date="1550337091424" expanded="true" signature="234:349" ph="/* A UnityTest behaves like a coroutine in PlayMode ... */" />
-            <marker date="1550337091424" expanded="true" signature="427:580" ph="{...}" />
-            <marker date="1550337091424" expanded="true" signature="437:513" ph="/* Use the Assert class to test conditions. ... */" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/BundleLoader2/Scripts/Initializer.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -582,123 +539,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/BundleLoader2/Scripts/Interfaces/IAssetBundleLoader.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
-          <folding>
-            <marker date="1550340460325" expanded="false" signature="6:39" ph="..." />
-            <marker date="1550340460325" expanded="true" signature="65:1032" ph="{...}" />
-            <marker date="1550340460325" expanded="true" signature="107:463" ph="{...}" />
-            <marker date="1550340460325" expanded="true" signature="505:727" ph="{...}" />
-            <marker date="1550340460325" expanded="true" signature="774:1030" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/BundleLoader2/Scripts/CommunicationManager.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="194" selection-start-line="194" selection-end-line="194" />
-          <folding>
-            <marker date="1550341618803" expanded="false" signature="6:200" ph="..." />
-            <marker date="1550341618803" expanded="true" signature="226:12572" ph="{...}" />
-            <marker date="1550341618803" expanded="true" signature="334:12570" ph="{...}" />
-            <marker date="1550341618803" expanded="false" signature="350:1715" ph="UNITY 2 WEB PAGE COMMUNICATION" />
-            <marker date="1550341618803" expanded="false" signature="1725:2519" ph="Singleton" />
-            <marker date="1550341618803" expanded="true" signature="1882:2003" ph="{...}" />
-            <marker date="1550341618803" expanded="true" signature="1908:1993" ph="{...}" />
-            <marker date="1550341618803" expanded="true" signature="2079:2499" ph="{...}" />
-            <marker date="1550341618803" expanded="true" signature="2148:2489" ph="{...}" />
-            <marker date="1550341618803" expanded="true" signature="2529:2581" ph="/* [SerializeField] ... */" />
-            <marker date="1550341618803" expanded="false" signature="2591:4996" ph="MonoBehaviour" />
-            <marker date="1550341618803" expanded="true" signature="2654:2703" ph="{...}" />
-            <marker date="1550341618803" expanded="true" signature="2737:2869" ph="{...}" />
-            <marker date="1550341618803" expanded="true" signature="2774:2859" ph="{...}" />
-            <marker date="1550341618803" expanded="true" signature="2891:3279" ph="{...}" />
-            <marker date="1550341618803" expanded="true" signature="2958:3269" ph="/* Singleton init ... */" />
-            <marker date="1550341618803" expanded="true" signature="3323:3768" ph="{...}" />
-            <marker date="1550341618803" expanded="true" signature="3346:3732" ph="/* var path = Application.streamingAssetsPath + &quot;/planets.json&quot;; ... */" />
-            <marker date="1550341618803" expanded="true" signature="3794:4137" ph="{...}" />
-            <marker date="1550341618803" expanded="true" signature="3820:3975" ph="{...}" />
-            <marker date="1550341618803" expanded="true" signature="4014:4081" ph="{...}" />
-            <marker date="1550341618803" expanded="true" signature="4162:4976" ph="{...}" />
-            <marker date="1550341618803" expanded="true" signature="4223:4686" ph="{...}" />
-            <marker date="1550341618803" expanded="true" signature="4393:4672" ph="{...}" />
-            <marker date="1550341618803" expanded="true" signature="4733:4910" ph="{...}" />
-            <marker date="1550341618803" expanded="true" signature="5006:6456" ph="ICommsToUnity" />
-            <marker date="1550341618803" expanded="true" signature="5140:5619" ph="{...}" />
-            <marker date="1550341618803" expanded="true" signature="5323:5573" ph="/* if (null == loader) ... */" />
-            <marker date="1550341618803" expanded="true" signature="5749:6339" ph="{...}" />
-            <marker date="1550341618803" expanded="true" signature="5822:6223" ph="{...}" />
-            <marker date="1550341618803" expanded="true" signature="5914:6202" ph="/* Debug.LogWarning(&quot;Before GetAssetInfoById&quot;); ... */" />
-            <marker date="1550341618803" expanded="true" signature="6262:6329" ph="{...}" />
-            <marker date="1550341618803" expanded="true" signature="6367:6436" ph="{...}" />
-            <marker date="1550341618803" expanded="true" signature="6466:7919" ph="ICommsFromUnity" />
-            <marker date="1550341618803" expanded="true" signature="6558:7096" ph="{...}" />
-            <marker date="1550341618803" expanded="true" signature="6613:6707" ph="{...}" />
-            <marker date="1550341618803" expanded="true" signature="6984:7086" ph="{...}" />
-            <marker date="1550341618803" expanded="true" signature="7165:7661" ph="{...}" />
-            <marker date="1550341618803" expanded="true" signature="7220:7314" ph="{...}" />
-            <marker date="1550341618803" expanded="true" signature="7549:7651" ph="{...}" />
-            <marker date="1550341618803" expanded="true" signature="7713:7819" ph="{...}" />
-            <marker date="1550341618803" expanded="true" signature="7853:7899" ph="{...}" />
-            <marker date="1550341618803" expanded="true" signature="7929:9314" ph="/* private string GetAssetByNameAsJson(string compName) ... */" />
-            <marker date="1550341618803" expanded="true" signature="9387:9597" ph="{...}" />
-            <marker date="1550341618803" expanded="true" signature="9670:11234" ph="{...}" />
-            <marker date="1550341618803" expanded="true" signature="9693:10217" ph="/* Debug.Log(&quot;GetAssetByNameAsJson: &quot; + bname + &quot;|&quot; + aname); ... */" />
-            <marker date="1550341618803" expanded="true" signature="10435:10492" ph="{...}" />
-            <marker date="1550341618803" expanded="true" signature="10629:10887" ph="/* Sanity check ... */" />
-            <marker date="1550341618803" expanded="true" signature="11278:11339" ph="{...}" />
-            <marker date="1550341618803" expanded="true" signature="11375:11444" ph="{...}" />
-            <marker date="1550341618803" expanded="true" signature="11533:11624" ph="{...}" />
-            <marker date="1550341618803" expanded="true" signature="11672:11866" ph="{...}" />
-            <marker date="1550341618803" expanded="true" signature="11876:11980" ph="/// { ... " />
-            <marker date="1550341618803" expanded="true" signature="12031:12253" ph="{...}" />
-            <marker date="1550341618803" expanded="true" signature="12316:12564" ph="{...}" />
-            <marker date="1550341618803" expanded="true" signature="12418:12462" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/BundleLoader2/Scripts/Loader.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="9" column="50" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="50" />
-          <folding>
-            <marker date="1550340856275" expanded="false" signature="6:147" ph="..." />
-            <marker date="1550340856275" expanded="true" signature="173:5383" ph="{...}" />
-            <marker date="1550340856275" expanded="true" signature="290:4457" ph="{...}" />
-            <marker date="1550340856275" expanded="true" signature="297:861" ph="/* ##region Singleton ... */" />
-            <marker date="1550340856275" expanded="false" signature="880:1344" ph="Variables" />
-            <marker date="1550340856275" expanded="false" signature="1356:1652" ph="Life Cycle" />
-            <marker date="1550340856275" expanded="true" signature="1478:1632" ph="{...}" />
-            <marker date="1550340856275" expanded="false" signature="1684:3536" ph="IAssetBundleLoader" />
-            <marker date="1550340856275" expanded="true" signature="1728:1836" ph="/// Entry Point. ... " />
-            <marker date="1550340856275" expanded="true" signature="1886:2489" ph="{...}" />
-            <marker date="1550340856275" expanded="true" signature="1947:2122" ph="{...}" />
-            <marker date="1550340856275" expanded="true" signature="2213:2407" ph="{...}" />
-            <marker date="1550340856275" expanded="true" signature="2542:2963" ph="{...}" />
-            <marker date="1550340856275" expanded="true" signature="2690:2886" ph="{...}" />
-            <marker date="1550340856275" expanded="true" signature="3032:3217" ph="{...}" />
-            <marker date="1550340856275" expanded="true" signature="3262:3338" ph="{...}" />
-            <marker date="1550340856275" expanded="true" signature="3432:3508" ph="{...}" />
-            <marker date="1550340856275" expanded="true" signature="3733:4010" ph="{...}" />
-            <marker date="1550340856275" expanded="true" signature="4062:4450" ph="{...}" />
-            <marker date="1550340856275" expanded="true" signature="4330:4440" ph="{...}" />
-            <marker date="1550340856275" expanded="true" signature="4505:5381" ph="{...}" />
-            <marker date="1550340856275" expanded="true" signature="4571:4939" ph="{...}" />
-            <marker date="1550340856275" expanded="true" signature="4625:4809" ph="{...}" />
-            <marker date="1550340856275" expanded="true" signature="4991:5055" ph="{...}" />
-            <marker date="1550340856275" expanded="true" signature="5114:5375" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/BundleLoader2/Scripts/BundleHandler.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="53" column="17" lean-forward="true" selection-start-line="53" selection-start-column="17" selection-end-line="53" selection-end-column="17" />
+        <state relative-caret-position="105">
+          <caret line="18" column="53" lean-forward="true" selection-start-line="18" selection-start-column="53" selection-end-line="18" selection-end-column="53" />
           <folding>
             <marker date="1550342117920" expanded="false" signature="6:304" ph="..." />
             <marker date="1550342117920" expanded="true" signature="330:20503" ph="{...}" />
@@ -712,7 +556,7 @@
             <marker date="1550342117920" expanded="true" signature="1043:1255" ph="{...}" />
             <marker date="1550342117920" expanded="true" signature="1121:1246" ph="{...}" />
             <marker date="1550342117920" expanded="true" signature="1420:1499" ph="/// Parent transform for an instantiated asset ... " />
-            <marker date="1550342117920" expanded="true" signature="2134:2473" ph="Constants" />
+            <marker date="1550342117920" expanded="false" signature="2134:2473" ph="Constants" />
             <marker date="1550342117920" expanded="true" signature="2536:2604" ph="{...}" />
             <marker date="1550342117920" expanded="false" signature="2621:5051" ph="Events and EventHandlers" />
             <marker date="1550342117920" expanded="true" signature="2765:2793" ph="{...}" />
@@ -795,6 +639,189 @@
             <marker date="1550342117920" expanded="true" signature="20291:20501" ph="{...}" />
             <marker date="1550342117920" expanded="true" signature="20353:20498" ph="{...}" />
             <marker date="1550342117920" expanded="true" signature="20420:20480" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/BundleLoader2/Scripts/Interfaces/IAssetBundleLoader.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+          <folding>
+            <marker date="1550340460325" expanded="false" signature="6:39" ph="..." />
+            <marker date="1550340460325" expanded="true" signature="65:1032" ph="{...}" />
+            <marker date="1550340460325" expanded="true" signature="107:463" ph="{...}" />
+            <marker date="1550340460325" expanded="true" signature="505:727" ph="{...}" />
+            <marker date="1550340460325" expanded="true" signature="774:1030" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/BundleLoader2/Tests/CustomMenuTests.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <marker date="1550337091424" expanded="false" signature="6:96" ph="..." />
+            <marker date="1550337091424" expanded="true" signature="127:582" ph="{...}" />
+            <marker date="1550337091424" expanded="true" signature="187:228" ph="{...}" />
+            <marker date="1550337091424" expanded="true" signature="234:349" ph="/* A UnityTest behaves like a coroutine in PlayMode ... */" />
+            <marker date="1550337091424" expanded="true" signature="427:580" ph="{...}" />
+            <marker date="1550337091424" expanded="true" signature="437:513" ph="/* Use the Assert class to test conditions. ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/BundleLoader2/Scripts/Loader.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="21" column="19" lean-forward="true" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
+          <folding>
+            <marker date="1550340856275" expanded="false" signature="6:147" ph="..." />
+            <marker date="1550340856275" expanded="true" signature="173:5383" ph="{...}" />
+            <marker date="1550340856275" expanded="true" signature="290:4457" ph="{...}" />
+            <marker date="1550340856275" expanded="true" signature="297:861" ph="/* ##region Singleton ... */" />
+            <marker date="1550340856275" expanded="false" signature="880:1344" ph="Variables" />
+            <marker date="1550340856275" expanded="false" signature="1356:1652" ph="Life Cycle" />
+            <marker date="1550340856275" expanded="true" signature="1478:1632" ph="{...}" />
+            <marker date="1550340856275" expanded="false" signature="1684:3536" ph="IAssetBundleLoader" />
+            <marker date="1550340856275" expanded="true" signature="1728:1836" ph="/// Entry Point. ... " />
+            <marker date="1550340856275" expanded="true" signature="1886:2489" ph="{...}" />
+            <marker date="1550340856275" expanded="true" signature="1947:2122" ph="{...}" />
+            <marker date="1550340856275" expanded="true" signature="2213:2407" ph="{...}" />
+            <marker date="1550340856275" expanded="true" signature="2542:2963" ph="{...}" />
+            <marker date="1550340856275" expanded="true" signature="2690:2886" ph="{...}" />
+            <marker date="1550340856275" expanded="true" signature="3032:3217" ph="{...}" />
+            <marker date="1550340856275" expanded="true" signature="3262:3338" ph="{...}" />
+            <marker date="1550340856275" expanded="true" signature="3432:3508" ph="{...}" />
+            <marker date="1550340856275" expanded="true" signature="3733:4010" ph="{...}" />
+            <marker date="1550340856275" expanded="true" signature="4062:4450" ph="{...}" />
+            <marker date="1550340856275" expanded="true" signature="4330:4440" ph="{...}" />
+            <marker date="1550340856275" expanded="true" signature="4505:5381" ph="{...}" />
+            <marker date="1550340856275" expanded="true" signature="4571:4939" ph="{...}" />
+            <marker date="1550340856275" expanded="true" signature="4625:4809" ph="{...}" />
+            <marker date="1550340856275" expanded="true" signature="4991:5055" ph="{...}" />
+            <marker date="1550340856275" expanded="true" signature="5114:5375" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/BundleLoader2/Scripts/CommunicationManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-420">
+          <caret line="183" column="47" selection-start-line="183" selection-start-column="47" selection-end-line="183" selection-end-column="47" />
+          <folding>
+            <marker date="1550342361324" expanded="false" signature="6:200" ph="..." />
+            <marker date="1550342361324" expanded="true" signature="226:12586" ph="{...}" />
+            <marker date="1550342361324" expanded="true" signature="334:12584" ph="{...}" />
+            <marker date="1550342361324" expanded="false" signature="350:1715" ph="UNITY 2 WEB PAGE COMMUNICATION" />
+            <marker date="1550342361324" expanded="false" signature="1725:2519" ph="Singleton" />
+            <marker date="1550342361324" expanded="true" signature="1882:2003" ph="{...}" />
+            <marker date="1550342361324" expanded="true" signature="1908:1993" ph="{...}" />
+            <marker date="1550342361324" expanded="true" signature="2079:2499" ph="{...}" />
+            <marker date="1550342361324" expanded="true" signature="2148:2489" ph="{...}" />
+            <marker date="1550342361324" expanded="true" signature="2529:2581" ph="/* [SerializeField] ... */" />
+            <marker date="1550342361324" expanded="false" signature="2591:4996" ph="MonoBehaviour" />
+            <marker date="1550342361324" expanded="true" signature="2654:2703" ph="{...}" />
+            <marker date="1550342361324" expanded="true" signature="2737:2869" ph="{...}" />
+            <marker date="1550342361324" expanded="true" signature="2774:2859" ph="{...}" />
+            <marker date="1550342361324" expanded="true" signature="2891:3279" ph="{...}" />
+            <marker date="1550342361324" expanded="true" signature="2958:3269" ph="/* Singleton init ... */" />
+            <marker date="1550342361324" expanded="true" signature="3323:3768" ph="{...}" />
+            <marker date="1550342361324" expanded="true" signature="3346:3732" ph="/* var path = Application.streamingAssetsPath + &quot;/planets.json&quot;; ... */" />
+            <marker date="1550342361324" expanded="true" signature="3794:4137" ph="{...}" />
+            <marker date="1550342361324" expanded="true" signature="3820:3975" ph="{...}" />
+            <marker date="1550342361324" expanded="true" signature="4014:4081" ph="{...}" />
+            <marker date="1550342361324" expanded="true" signature="4162:4976" ph="{...}" />
+            <marker date="1550342361324" expanded="true" signature="4223:4686" ph="{...}" />
+            <marker date="1550342361324" expanded="true" signature="4393:4672" ph="{...}" />
+            <marker date="1550342361324" expanded="true" signature="4733:4910" ph="{...}" />
+            <marker date="1550342361324" expanded="true" signature="5006:6470" ph="ICommsToUnity" />
+            <marker date="1550342361324" expanded="true" signature="5140:5633" ph="{...}" />
+            <marker date="1550342361324" expanded="true" signature="5323:5573" ph="/* if (null == loader) ... */" />
+            <marker date="1550342361324" expanded="true" signature="5763:6353" ph="{...}" />
+            <marker date="1550342361324" expanded="true" signature="5836:6237" ph="{...}" />
+            <marker date="1550342361324" expanded="true" signature="5928:6216" ph="/* Debug.LogWarning(&quot;Before GetAssetInfoById&quot;); ... */" />
+            <marker date="1550342361324" expanded="true" signature="6276:6343" ph="{...}" />
+            <marker date="1550342361324" expanded="true" signature="6381:6450" ph="{...}" />
+            <marker date="1550342361324" expanded="true" signature="6480:7933" ph="ICommsFromUnity" />
+            <marker date="1550342361324" expanded="true" signature="6572:7110" ph="{...}" />
+            <marker date="1550342361324" expanded="true" signature="6627:6721" ph="{...}" />
+            <marker date="1550342361324" expanded="true" signature="6998:7100" ph="{...}" />
+            <marker date="1550342361324" expanded="true" signature="7179:7675" ph="{...}" />
+            <marker date="1550342361324" expanded="true" signature="7234:7328" ph="{...}" />
+            <marker date="1550342361324" expanded="true" signature="7563:7665" ph="{...}" />
+            <marker date="1550342361324" expanded="true" signature="7727:7833" ph="{...}" />
+            <marker date="1550342361324" expanded="true" signature="7867:7913" ph="{...}" />
+            <marker date="1550342361324" expanded="true" signature="7943:9328" ph="/* private string GetAssetByNameAsJson(string compName) ... */" />
+            <marker date="1550342361324" expanded="true" signature="9401:9611" ph="{...}" />
+            <marker date="1550342361324" expanded="true" signature="9684:11248" ph="{...}" />
+            <marker date="1550342361324" expanded="true" signature="9707:10231" ph="/* Debug.Log(&quot;GetAssetByNameAsJson: &quot; + bname + &quot;|&quot; + aname); ... */" />
+            <marker date="1550342361324" expanded="true" signature="10449:10506" ph="{...}" />
+            <marker date="1550342361324" expanded="true" signature="10643:10901" ph="/* Sanity check ... */" />
+            <marker date="1550342361324" expanded="true" signature="11292:11353" ph="{...}" />
+            <marker date="1550342361324" expanded="true" signature="11389:11458" ph="{...}" />
+            <marker date="1550342361324" expanded="true" signature="11547:11638" ph="{...}" />
+            <marker date="1550342361324" expanded="true" signature="11686:11880" ph="{...}" />
+            <marker date="1550342361324" expanded="true" signature="11890:11994" ph="/// { ... " />
+            <marker date="1550342361324" expanded="true" signature="12045:12267" ph="{...}" />
+            <marker date="1550342361324" expanded="true" signature="12330:12578" ph="{...}" />
+            <marker date="1550342361324" expanded="true" signature="12432:12476" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/BundleLoader2/Scripts/Interfaces/IBundleHandler.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+          <folding>
+            <marker date="1550342346365" expanded="false" signature="6:78" ph="..." />
+            <marker date="1550342346365" expanded="true" signature="104:479" ph="{...}" />
+            <marker date="1550342346365" expanded="true" signature="142:477" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/BundleLoader2/Scripts/Editor/Tests/LoaderTestScript.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+          <folding>
+            <marker date="1550345667324" expanded="false" signature="6:118" ph="..." />
+            <marker date="1550345667324" expanded="true" signature="149:1214" ph="{...}" />
+            <marker date="1550345667324" expanded="true" signature="289:310" ph="{...}" />
+            <marker date="1550345667324" expanded="true" signature="347:410" ph="{...}" />
+            <marker date="1550345667324" expanded="true" signature="453:474" ph="{...}" />
+            <marker date="1550345667324" expanded="true" signature="485:698" ph="/* [Test] ... */" />
+            <marker date="1550345667324" expanded="true" signature="759:844" ph="{...}" />
+            <marker date="1550345667324" expanded="true" signature="850:1212" ph="/* A UnityTest behaves like a coroutine in PlayMode ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/BundleLoader2/Scripts/Editor/Tests/TutorialTestScript.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="526">
+          <caret line="93" column="31" lean-forward="true" selection-start-line="93" selection-start-column="31" selection-end-line="93" selection-end-column="31" />
+          <folding>
+            <marker date="1550348517476" expanded="false" signature="6:96" ph="..." />
+            <marker date="1550348517476" expanded="true" signature="130:2864" ph="{...}" />
+            <marker date="1550348517476" expanded="true" signature="318:410" ph="{...}" />
+            <marker date="1550348517476" expanded="true" signature="584:671" ph="{...}" />
+            <marker date="1550348517476" expanded="true" signature="854:943" ph="{...}" />
+            <marker date="1550348517476" expanded="true" signature="1036:1097" ph="{...}" />
+            <marker date="1550348517476" expanded="true" signature="1127:1304" ph="[...]" />
+            <marker date="1550348517476" expanded="true" signature="1350:1413" ph="{...}" />
+            <marker date="1550348517476" expanded="true" signature="1448:1649" ph="[...]" />
+            <marker date="1550348517476" expanded="true" signature="1695:1758" ph="{...}" />
+            <marker date="1550348517476" expanded="true" signature="1993:2048" ph="{...}" />
+            <marker date="1550348517476" expanded="true" signature="2164:2403" ph="{...}" />
+            <marker date="1550348517476" expanded="true" signature="2269:2333" ph="{...}" />
+            <marker date="1550348517476" expanded="true" signature="2346:2397" ph="{...}" />
+            <marker date="1550348517476" expanded="true" signature="2420:2535" ph="/* A UnityTest behaves like a coroutine in PlayMode ... */" />
+            <marker date="1550348517476" expanded="true" signature="2743:2862" ph="{...}" />
+            <marker date="1550348517476" expanded="true" signature="2753:2829" ph="/* Use the Assert class to test conditions. ... */" />
           </folding>
         </state>
       </provider>
