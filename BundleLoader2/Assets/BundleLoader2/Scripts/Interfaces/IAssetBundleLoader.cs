@@ -5,10 +5,10 @@ namespace NG.TRIPSS.CORE
 {
     interface IAssetBundleLoader
     {
-        void LoadModel(string containerId);
+        bool LoadModel(string containerId);
 
         void LoadAsset(AssetBundleItem item);
-        void LoadTripssAsset(int id, IDataSource dataSource);
+        bool LoadTripssAsset(int id, IDataSource dataSource);
         int GetIdByName(string name);
         int GetContainerIdByAssetNameAndBundleName(string aname, string bname = null);
         bool SameAsset(int id, AssetBundleItemList.DB_Type type);

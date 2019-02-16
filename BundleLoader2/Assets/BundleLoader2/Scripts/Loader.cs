@@ -44,12 +44,12 @@ namespace NG.TRIPSS.CORE
         /// Entry Point.
         /// </summary>
         /// <param name="containerId"></param>
-        public void LoadModel(string containerId)
+        public bool LoadModel(string containerId)
         {
             if (string.IsNullOrEmpty(containerId))
             {
                 "Model ID is not set.".ConsoleLog(LOG.LogLevel.Error, AppSettings.Instance.staticSettings.logLevel);
-                return;
+                return false;
             }
             
             var id = -1;
@@ -57,10 +57,11 @@ namespace NG.TRIPSS.CORE
             if (!int.TryParse(containerId, out id))
             {
                 $"Model ID is not numeric: {containerId}".ConsoleLog(LOG.LogLevel.Error, AppSettings.Instance.staticSettings.logLevel);
-                return;
+                return false;
             }
 
             LoadTripssAsset(id, _dataSource);
+            return true;
         }
 
         public void LoadAsset(AssetBundleItem item)
@@ -72,13 +73,18 @@ namespace NG.TRIPSS.CORE
                     .ConsoleLog(LOG.LogLevel.Warning, AppSettings.Instance.staticSettings.logLevel);
                 return;
             }
-
-            // loadAssetBundleItemEvent.Invoke(item);
+            
+            _bundleHandler.LoadAssetBundleItem(item);
         }
 
-        public void LoadTripssAsset(int id, IDataSource dataSource)
+        public bool LoadTripssAsset(int id, IDataSource dataSource)
         {
-            throw new System.NotImplementedException();
+            var item = dataSource.TryItemLookup(id);
+            if (null == item) return false;
+            
+            LoadAsset(item);
+
+            return true;
         }
 
         public int GetIdByName(string name)

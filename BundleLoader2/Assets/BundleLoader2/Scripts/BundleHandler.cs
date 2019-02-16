@@ -57,10 +57,11 @@ namespace NG.TRIPSS.CORE
         
 
         #endregion
-		
-		
-		
-		
+
+        public void LoadAssetBundleItem(AssetBundleItem item)
+        {
+	        loadAssetBundleItemEvent.Invoke(item);
+        }
 		
 		
 	         #region Events and EventHandlers

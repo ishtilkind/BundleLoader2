@@ -12,5 +12,7 @@ namespace NG.TRIPSS.CORE
 
         IEnumerator LoadAssetAsync(AssetBundleItem asset);
         void LoadAsset(AssetBundleItem asset);
+
+        void LoadAssetBundleItem(AssetBundleItem asset);
     }
 }

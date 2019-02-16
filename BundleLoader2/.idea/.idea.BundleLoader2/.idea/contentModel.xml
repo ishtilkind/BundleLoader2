@@ -14,7 +14,6 @@
             <e p="AssetBundleItemList.cs" t="Include" />
             <e p="AssetInfoFromDB.cs" t="Include" />
             <e p="BundleHandler.cs" t="Include" />
-            <e p="BundleLoader.cs" t="Include" />
             <e p="CommunicationManager.cs" t="Include" />
             <e p="DbInfoLoader.cs" t="Include" />
             <e p="DebugConsoleLogger" t="Include">
@@ -26,6 +25,7 @@
               <e p="CreateAssetBundleItemList.cs" t="Include" />
               <e p="CreateSettings.cs" t="Include" />
               <e p="DbInfoLoaderEditor.cs" t="Include" />
+              <e p="LoaderTestScript.cs" t="Include" />
               <e p="MyCustomBuildProcessor.cs" t="Include" />
               <e p="PathEditor.cs" t="Include" />
               <e p="TripssToolsEditorWindow.cs" t="Include" />
@@ -47,6 +47,7 @@
           </e>
         </e>
         <e p="WebPlayerTemplates" t="Include">
+          <e p="BundleLoader.cs" t="Include" />
           <e p="BundleLoaderNotWorking.cs" t="Include" />
           <e p="CameraScripts" t="Include">
             <e p="CameraInput.cs" t="Include" />
