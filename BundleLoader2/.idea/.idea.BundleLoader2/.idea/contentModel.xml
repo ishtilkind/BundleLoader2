@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\Igor\.Rider2018.3\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Igor\.Rider2018.3\system\resharper-host\local\Transient\ReSharperHost\v183\SolutionCaches\_BundleLoader2.-530429562.00" t="ExcludeRecursive" />
+    <e p="C:\Users\Igor\Documents\GitHub\BundleLoader2\BundleLoader2" t="IncludeRecursive">
+      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="BundleLoader2" t="Include">
+          <e p="Scripts" t="Include">
+            <e p="AppSettings.cs" t="Include" />
+            <e p="AssetBundleItem.cs" t="Include" />
+            <e p="AssetBundleItemList.cs" t="Include" />
+            <e p="AssetInfoFromDB.cs" t="Include" />
+            <e p="BundleHandler.cs" t="Include" />
+            <e p="BundleLoader.cs" t="Include" />
+            <e p="CommunicationManager.cs" t="Include" />
+            <e p="DbInfoLoader.cs" t="Include" />
+            <e p="DebugConsoleLogger" t="Include">
+              <e p="DebugConsoleLogger.cs" t="Include" />
+            </e>
+            <e p="Editor" t="Include">
+              <e p="BuildScript.cs" t="Include" />
+              <e p="BundleAssetLoaderTestsEditor.cs" t="Include" />
+              <e p="CreateAssetBundleItemList.cs" t="Include" />
+              <e p="CreateSettings.cs" t="Include" />
+              <e p="DbInfoLoaderEditor.cs" t="Include" />
+              <e p="MyCustomBuildProcessor.cs" t="Include" />
+              <e p="PathEditor.cs" t="Include" />
+              <e p="TripssToolsEditorWindow.cs" t="Include" />
+              <e p="VersionEditor.cs" t="Include" />
+            </e>
+            <e p="Initializer.cs" t="Include" />
+            <e p="Interfaces" t="Include">
+              <e p="IAssetBundleLoader.cs" t="Include" />
+              <e p="IAssetInfo.cs" t="Include" />
+              <e p="IBundleHandler.cs" t="Include" />
+              <e p="IDataSource.cs" t="Include" />
+            </e>
+            <e p="Loader.cs" t="Include" />
+            <e p="MainSceneReadme.cs" t="Include" />
+            <e p="MonoSingleton" t="Include">
+              <e p="MonoSingleton.cs" t="Include" />
+            </e>
+            <e p="Settings.cs" t="Include" />
+          </e>
+        </e>
+        <e p="WebPlayerTemplates" t="Include">
+          <e p="BundleLoaderNotWorking.cs" t="Include" />
+          <e p="CameraScripts" t="Include">
+            <e p="CameraInput.cs" t="Include" />
+            <e p="CameraOrbit.cs" t="Include" />
+            <e p="CameraZoom.cs" t="Include" />
+            <e p="DoubleClick.cs" t="Include" />
+            <e p="FreeObjectRotationCam.cs" t="Include" />
+            <e p="LongClick.cs" t="Include" />
+            <e p="MouseClickHandler.cs" t="Include" />
+            <e p="ZoomIN.cs" t="Include" />
+            <e p="ZoomOUT.cs" t="Include" />
+          </e>
+          <e p="Command.cs" t="Include" />
+          <e p="DataBuilder.cs" t="Include" />
+          <e p="UI Scripts" t="Include">
+            <e p="ComponentHUD.cs" t="Include" />
+            <e p="FpsDisplay.cs" t="Include" />
+            <e p="HUD_Text.cs" t="Include" />
+            <e p="PathInfo.cs" t="Include" />
+            <e p="VersionInfo.cs" t="Include" />
+            <e p="VersionInfoDisplay.cs" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="BundleLoader2.sln" t="IncludeFlat" />
+      <e p="Library" t="ExcludeRecursive" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Temp" t="ExcludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+      </e>
+    </e>
+  </component>
+</project>
