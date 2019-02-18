@@ -8,14 +8,11 @@
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="BundleLoader2" t="Include">
-          <e p="Menu" t="Include">
-            <e p="CustomMenu.cs" t="Include" />
-            <e p="CustomMenuAssembly.asmdef" t="Include" />
-          </e>
           <e p="Scripts" t="Include">
             <e p="AppSettings.cs" t="Include" />
             <e p="AssetBundleItem.cs" t="Include" />
             <e p="AssetBundleItemList.cs" t="Include" />
+            <e p="AssetBundleLoader.cs" t="Include" />
             <e p="AssetInfoFromDB.cs" t="Include" />
             <e p="BundleHandler.cs" t="Include" />
             <e p="CommunicationManager.cs" t="Include" />
@@ -29,6 +26,10 @@
               <e p="CreateAssetBundleItemList.cs" t="Include" />
               <e p="CreateSettings.cs" t="Include" />
               <e p="DbInfoLoaderEditor.cs" t="Include" />
+              <e p="Menu" t="Include">
+                <e p="CustomMenu.cs" t="Include" />
+                <e p="CustomMenuAssembly.asmdef" t="Include" />
+              </e>
               <e p="MyCustomBuildProcessor.cs" t="Include" />
               <e p="Tests" t="Include">
                 <e p="LoaderTestScript.cs" t="Include" />
@@ -54,6 +55,82 @@
           <e p="Tests" t="Include">
             <e p="CustomMenuTests.cs" t="Include" />
             <e p="Tests.asmdef" t="Include" />
+          </e>
+        </e>
+        <e p="LoadTester.cs" t="Include" />
+        <e p="Unium" t="Include">
+          <e p="Scripts" t="Include">
+            <e p="Core" t="Include">
+              <e p="gw.proto.http" t="Include">
+                <e p="Client.cs" t="Include" />
+                <e p="HttpCodes.cs" t="Include" />
+                <e p="HttpRequest.cs" t="Include" />
+                <e p="HttpResponse.cs" t="Include" />
+                <e p="Server.cs" t="Include" />
+                <e p="WebSocket.cs" t="Include" />
+                <e p="WebSocketCodes.cs" t="Include" />
+                <e p="WebSocketFrame.cs" t="Include" />
+              </e>
+              <e p="gw.proto.utils" t="Include">
+                <e p="Endian.cs" t="Include" />
+                <e p="JsonBuilder.cs" t="Include" />
+                <e p="JsonParser.cs" t="Include" />
+                <e p="JsonReflector.cs" t="Include" />
+                <e p="JsonSerialiser.cs" t="Include" />
+                <e p="Utils.cs" t="Include" />
+              </e>
+              <e p="UnitySerialisers.cs" t="Include" />
+              <e p="UniumSocket.cs" t="Include" />
+              <e p="UniumSocketMessage.cs" t="Include" />
+              <e p="UniumSocketRepeater.cs" t="Include" />
+            </e>
+            <e p="GQL" t="Include">
+              <e p="Calc" t="Include">
+                <e p="Expression.cs" t="Include" />
+                <e p="Numbers.cs" t="Include" />
+                <e p="ParserAST.cs" t="Include" />
+                <e p="ParserLexical.cs" t="Include" />
+                <e p="ParserSemantic.cs" t="Include" />
+                <e p="ParserToken.cs" t="Include" />
+              </e>
+              <e p="Interpreter.cs" t="Include" />
+              <e p="InterpretersUnity.cs" t="Include" />
+              <e p="Query" t="Include">
+                <e p="ActionInvoke.cs" t="Include" />
+                <e p="ActionSet.cs" t="Include" />
+                <e p="ConvertType.cs" t="Include" />
+                <e p="Path.cs" t="Include" />
+                <e p="Query.cs" t="Include" />
+                <e p="Select.cs" t="Include" />
+                <e p="Where.cs" t="Include" />
+              </e>
+              <e p="Root.cs" t="Include" />
+              <e p="UniumUtils.cs" t="Include" />
+            </e>
+            <e p="Routing" t="Include">
+              <e p="HandlerFile.cs" t="Include" />
+              <e p="HandlerGQL.cs" t="Include" />
+              <e p="HandlerSocketBind.cs" t="Include" />
+              <e p="HandlerSocketCommand.cs" t="Include" />
+              <e p="HandlerUtils.cs" t="Include" />
+              <e p="Nodes.cs" t="Include" />
+              <e p="Router.cs" t="Include" />
+              <e p="RouterAdapters.cs" t="Include" />
+            </e>
+            <e p="Unium.cs" t="Include" />
+            <e p="UniumComponent.cs" t="Include" />
+            <e p="UniumMinion.cs" t="Include" />
+            <e p="UniumRegister.cs" t="Include" />
+            <e p="UniumSimulate.cs" t="Include" />
+          </e>
+          <e p="Tutorial" t="Include">
+            <e p="Scripts" t="Include">
+              <e p="Address.cs" t="Include" />
+              <e p="Pickup.cs" t="Include" />
+              <e p="Player.cs" t="Include" />
+              <e p="ThirdPersonCamera.cs" t="Include" />
+              <e p="Tutorial.cs" t="Include" />
+            </e>
           </e>
         </e>
       </e>

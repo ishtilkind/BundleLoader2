@@ -7,7 +7,7 @@ public class CustomMenuTests {
 
     [Test]
     public void CustomMenuTestsSimplePasses() {
-        CustomMenu.DoSomething();
+        // CustomMenu.DoSomething();
     }
 
     // A UnityTest behaves like a coroutine in PlayMode
@@ -17,6 +17,6 @@ public class CustomMenuTests {
         // Use the Assert class to test conditions.
         // yield to skip a frame
         yield return null;
-        CustomMenu.DoSomething();
+        // CustomMenu.DoSomething();
     }
 }

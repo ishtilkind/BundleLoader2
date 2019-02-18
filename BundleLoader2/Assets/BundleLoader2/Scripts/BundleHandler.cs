@@ -18,6 +18,15 @@ namespace NG.TRIPSS.CORE
 	/// </summary>
 	public class BundleHandler : MonoBehaviour, IBundleHandler
 	{
+		#region Constants
+
+#if UNITY_WEBGL
+		public static string ASSET_BUNDLE_PATH = "../AssetBundles/WebGL/";
+#else
+		public static string ASSET_BUNDLE_PATH = "../AssetBundles/StandaloneWindows/";
+#endif
+		
+		#endregion
 		#region Singleton
 		/// <summary>
 		///  http://csharpindepth.com/Articles/General/Singleton.aspx
@@ -42,23 +51,23 @@ namespace NG.TRIPSS.CORE
 			}
 		}
 
-		[RuntimeInitializeOnLoadMethod]
-		private static void Init()
-		{
-			lock (padlock)
-			{
-				if (instance == null || instance.Equals(null))
-				{
-					var gameObject = new GameObject("BundleHandler");
-					instance = gameObject.AddComponent<BundleHandler>();
-				}
-			}
-		}
+//		[RuntimeInitializeOnLoadMethod]
+//		private static void Init()
+//		{
+//			lock (padlock)
+//			{
+//				if (instance == null || instance.Equals(null))
+//				{
+//					var gameObject = new GameObject("BundleHandler");
+//					instance = gameObject.AddComponent<BundleHandler>();
+//				}
+//			}
+//		}
 
 		#endregion
 
-        private static IAssetBundleLoader loader = new Loader("", null, null);		
-        public static IAssetBundleLoader Loader => loader;
+        private static IAssetBundleLoader _loader = null;		
+        public static IAssetBundleLoader Loader => _loader;
 
         /// <summary>
 		/// Parent transform for an instantiated asset
@@ -352,6 +361,11 @@ namespace NG.TRIPSS.CORE
 
         }
 
+        private void Awake()
+        {
+	        _loader = new Loader(ASSET_BUNDLE_PATH, CommunicationManager.Instance, Instance);		
+        }
+
 
         private void OnEnable()
         {
@@ -366,7 +380,7 @@ namespace NG.TRIPSS.CORE
 
         void Start()
 		{
-			loader = new Loader("../AssetBundles/WebGL/", commsManager, this);
+			_loader = new Loader("../AssetBundles/WebGL/", commsManager, this);
 		}
 
 		void Update()
@@ -655,7 +669,7 @@ namespace NG.TRIPSS.CORE
 				return;
 			}
 
-			if (!bundleUnloaded && loader.SameAsset(id, assets.type))
+			if (!bundleUnloaded && _loader.SameAsset(id, assets.type))
 			{
 				"Asset is already loaded!"
 					.ConsoleLog(LOG.LogLevel.Warning, AppSettings.Instance.staticSettings.logLevel);
