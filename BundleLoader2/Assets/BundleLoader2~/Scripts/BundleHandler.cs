@@ -332,6 +332,7 @@ namespace NG.TRIPSS.CORE
 
         private void AssignListeners()
         {
+	        
             if (!listenersInitialized)
             {
                 loadAssetBundleItemEvent.AddListener(LoadBundleAssetEventHandler);

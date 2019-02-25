@@ -67,8 +67,10 @@ namespace NG.TRIPSS.CORE
                 return instance;
             }
         }
-
+        
+#if !UNITY_EDITOR
         [RuntimeInitializeOnLoadMethod]
+#endif
         private static void Init()
         {
             if (instance == null || instance.Equals(null))

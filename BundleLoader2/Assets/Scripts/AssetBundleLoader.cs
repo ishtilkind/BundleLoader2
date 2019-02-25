@@ -2,9 +2,12 @@
 using System.Collections.Generic;
 using System.IO;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class AssetBundleLoader
 {
+    public static UnityAction AssetCreatedListener;
+
     public AssetBundleLoader(string path)
     {
         bundlePath = path;

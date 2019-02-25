@@ -10,8 +10,9 @@ namespace NG.TRIPSS.CONFIG
 
         private static AppSettings _instance;
         public static AppSettings Instance { get; private set; }
-
+#if !UNITY_EDITOR
         [RuntimeInitializeOnLoadMethod]
+#endif
         private static void Init()
         {
             if (null == _instance
